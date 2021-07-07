@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-size: 24px;
+    margin: 10px;
+}
+h3{
+    font-size: 12px;
+    margin-left: 10px;
+}
+h4{
+    font-size: 24px;
+    margin-left: 10px;
+    color: #009688;
+}
+.section-heading {
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(27, 25, 25);
+}
+#Clothing{
+    display: flex;
+    flex-direction: column;
+}
+#Accessories{
+    display: flex;
+    flex-direction: column;    
+}
+#section-wrapper1{
+    margin-left: 70px;
+    margin-right: 40px;
+    display: inline-flex;
+    justify-content: space-between
+}
+#section-wrapper2{
+    margin-left: 70px;
+    margin-right: 40px;
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.card{
+    width: 20%;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px;
+    border-radius: 8px;
+}
+.image{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+@media only screen and (max-width:479px){
+    .section-heading {
+        margin: auto;
+    }
+    #section-wrapper1{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    #section-wrapper2{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .card{
+        width: 48%;
+        height: 100vh;
+    }
+    #Clothing{
+        position: absolute;
+    }
+    #id00{
+        position: absolute;
+    }
+    #id01{
+        position: absolute;
+        left:51%;
+    }
+    #id02{
+        position: absolute;
+        top: 120vh;
+    }
+    #id03{
+        position: absolute;
+        top: 120vh;
+        left: 51%;
+    }
+    #id04{
+        position: absolute;
+        top: 225vh;
+    }
+    #Accessories{
+        position: absolute;
+        top: 340vh;
+    }
+    #id05{
+        position: absolute;
+    }
+    #id06{
+        position: absolute;
+        left: 51%;
+    }
+    #id07{
+        position: absolute;
+        top: 120vh ;
+    }
+    #id08{
+        position: absolute;
+        top:120vh ;
+        left: 51%;
+    }
+    #id09{
+        position: absolute;
+        top:225vh ;
+    }
+}
